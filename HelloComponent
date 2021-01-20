@@ -1,0 +1,11 @@
+import React from "react";
+
+export default function HelloComponent({name, lastname, age}) {
+    {
+        return (
+            <div>
+                <h1>Hello, I'm {name} {lastname} I'm {age} years old.</h1>
+            </div>
+        )
+    }
+}
